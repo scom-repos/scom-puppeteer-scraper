@@ -1,6 +1,6 @@
 /// <amd-module name="@scom/scom-puppeteer-scraper" />
 declare module "@scom/scom-puppeteer-scraper" {
-    import { ICookie, ICookieParam, IKeyInput, IPageEvent, IPageLifeCycle, IScraperEngine } from "@scom/scom-scraper";
+    import { ICookie, ICookieParam, IKeyInput, IPageEvent, IPageLifeCycle, IScraperEngine } from "@scom/scom-scraper-sdk";
     import { Browser, Page } from "puppeteer";
     export default class PuppeteerScraper implements IScraperEngine {
         private browser;

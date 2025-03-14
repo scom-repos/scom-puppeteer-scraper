@@ -1,4 +1,4 @@
-import { ICookie, ICookieParam, IKeyInput, IPageEvent, IPageLifeCycle, IScraperEngine} from "@scom/scom-scraper";
+import { ICookie, ICookieParam, IKeyInput, IPageEvent, IPageLifeCycle, IScraperEngine} from "@scom/scom-scraper-sdk";
 import puppeteer, {Browser, Page} from "puppeteer";
 
 export default class PuppeteerScraper implements IScraperEngine {

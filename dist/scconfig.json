@@ -3,7 +3,7 @@
     "type": "widget",
     "version": "0.1.2",
     "dependencies": [
-        "@scom/scom-scraper",
+        "@scom/scom-scraper-sdk",
         "puppeteer"
     ]
 }
